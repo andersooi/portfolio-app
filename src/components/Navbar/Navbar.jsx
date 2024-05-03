@@ -1,38 +1,3 @@
-// const Navbar = () => {
-//     return (
-//         <nav className="navbar">
-//             <ul className="flex font-medium mr-6 justify-end text-gray-500">
-//                 <li className="ml-6">
-//                     <a
-//                         href="#projects"
-//                         className="link relative pb-1 hover:text-tBlue"
-//                     >
-//                         Projects
-//                     </a>
-//                 </li>
-//                 <li className="ml-6">
-//                     <a
-//                         href="#skills"
-//                         className="link relative pb-1 hover:text-tBlue"
-//                     >
-//                         Skills
-//                     </a>
-//                 </li>
-//                 <li className="ml-6">
-//                     <a
-//                         href="#contact"
-//                         className="link relative pb-1 hover:text-tBlue"
-//                     >
-//                         Contact
-//                     </a>
-//                 </li>
-//             </ul>
-//         </nav>
-//     );
-// };
-
-// export default Navbar;
-
 import { useState } from 'react';
 import { MenuRounded } from '@mui/icons-material';
 import { CloseRounded } from '@mui/icons-material';

@@ -1,4 +1,3 @@
-// import Typer from "./Typer";
 import Typewriter from "typewriter-effect";
 import "./About.css";
 
