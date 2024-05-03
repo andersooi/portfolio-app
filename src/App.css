@@ -1,0 +1,103 @@
+.app {
+    /* font-family: 'Poppins', sans-serif;
+    line-height: 1.5; */
+    color: #555;
+    background-color: #fcfcfc;
+}
+
+.main {
+    max-width: 1100px;
+    width: 95%;
+}
+
+.center {
+    display: flex;
+    align-items: center;
+}
+
+.link {
+    color: #2978b5;
+    padding: 0 0 0.3em 0;
+    position: relative;
+}
+
+.link--nav {
+    color: #555;
+    /* text-transform: lowercase; */
+    font-weight: 500;
+    padding: 0 0 0.3em 0;
+    position: relative;
+  }
+
+.link:hover {
+    color: #2978b5
+}
+
+.link::before {
+    content: '';
+    display: inline;
+    width: 0%;
+    height: 0.2em;
+    position: absolute;
+    bottom: 0;
+    background-color: #2978b5;
+    transition: width 0.2s ease-in;
+  }
+
+.link:hover::before,
+.link:focus::before {
+  width: 100%;
+}
+
+.btn {
+    display: block;
+    cursor: pointer;
+    padding: 0.8em 1.4em;
+    font-weight: 500;
+    font-size: 0.9em;
+    /* text-transform: lowercase; */
+    transition: transform 0.2s ease-in-out
+}
+
+.btn--icon {
+    padding: 0;
+}
+
+.btn--icon:hover,
+.btn--icon:focus {
+    color: #2978b5;
+}
+
+.btn--icon:active {
+    transform: translateY(-5px);
+}
+
+.btn--outline {
+    color: #2978b5;
+    border: 2px solid #2978b5;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.btn--outline:hover,
+.btn--outline:focus {
+    color: #fcfcfc;
+}
+
+.btn--outline:before {
+    content: '';
+    position: absolute;
+    background-color: #2978b5;
+    right: 100%;
+    bottom: 0;
+    left: 0;
+    top: 0;
+    z-index: -1;
+    transition: right 0.2s ease-in-out;
+}
+
+.btn--outline:hover:before,
+.btn--outline:focus:before {
+    right: 0;
+}
