@@ -15,6 +15,16 @@
     align-items: center;
 }
 
+.section {
+    margin-top: 5em;
+  }
+  
+  .section__title {
+    text-align: center;
+    margin-bottom: 1em;
+    text-transform: uppercase;
+  }
+
 .link {
     color: #2978b5;
     padding: 0 0 0.3em 0;

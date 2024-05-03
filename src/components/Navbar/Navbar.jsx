@@ -12,6 +12,9 @@ const Navbar = () => {
         <nav className="center nav">
             <ul className={`nav__list ${showNavlist ? 'flex' : null}`}>
                 <li className="nav__list-item ml-6 flex">
+                    <a href="#experiences" onClick={toggleNavlist} className="link link--nav">Experiences</a>
+                </li>
+                <li className="nav__list-item ml-6 flex">
                     <a href="#projects" onClick={toggleNavlist} className="link link--nav">Projects</a>
                 </li>
                 <li className="nav__list-item ml-6 flex">

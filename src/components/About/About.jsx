@@ -28,10 +28,10 @@ const About = () => {
                     }}
                 />
             </h2>
-            <p className="mt-10 text-base text-center max-w-xl px-2"> 
+            <p className="mt-10 text-base text-center max-w-xl"> 
                 I am an aspiring developer and analyst based in Singapore, with a passion for web development and 
                 machine learning. I enjoy learning new things and working through challenging tasks to help me grow.
-                In addition to coding, I enjoy building side projects based on my intersets and contributing to open source projects.
+                In addition to coding, I enjoy building side projects based on my interests and contributing to open source projects.
             </p>
             <div className="center mt-10">
                 <a href="#">
