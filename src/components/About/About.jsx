@@ -34,7 +34,7 @@ const About = () => {
                 In addition to coding, I enjoy building side projects based on my interests and contributing to open source projects.
             </p>
             <div className="center mt-10">
-                <a href="https://drive.google.com/file/d/1Da7a-L2MZXkNDDUkQH5OO9kO1yxB7OGy/view?usp=sharing">
+                <a href="https://drive.google.com/file/d/1Da7a-L2MZXkNDDUkQH5OO9kO1yxB7OGy/view?usp=sharing" target="_blank">
                     <span type="button" className="btn btn--outline">
                         Resume
                     </span>
