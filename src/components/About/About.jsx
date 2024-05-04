@@ -3,7 +3,7 @@ import "./About.css";
 
 const About = () => {
     return (
-        <div className="flex-col mt-12 center">
+        <div className="flex-col mt-32 center">
             <h1 className="font-bold">
                 Hi {" "}
                 <span role="img" className="wave" aria-label="wave emoji">
