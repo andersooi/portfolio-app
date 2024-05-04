@@ -1,6 +1,7 @@
 import Header from './components/Header/Header';
 import About from './components/About/About';
 import Experiences from './components/Experiences/Experiences';
+import Projects from './components/Projects/Projects';
 import './App.css';
 
 const App = () => {
@@ -11,6 +12,7 @@ const App = () => {
       <main className='mx-auto my-0 p-4'>
         <About />
         <Experiences />
+        <Projects />
       </main>
 
     </div>

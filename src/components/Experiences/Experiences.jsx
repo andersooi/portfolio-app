@@ -27,7 +27,7 @@ const experiences = [
     title: "National Youth Council",
     role: "Strategic Planning Intern",
     description: [
-      "Streamlined department’s decision-making process through data cleaning and visualisation techniques using Microsoft Excel & Tableau",
+      "Streamlined department's decision-making process through data cleaning and visualisation techniques using Microsoft Excel & Tableau",
     ],
     technologies: ["Tableau", "Microsoft Excel"],
   },
@@ -36,12 +36,12 @@ const experiences = [
 
 const Experiences = () => {
     return (
-        <section className="section ">
+        <section id="experiences" className="section">
             <h2 className="section__title font-bold">Experiences</h2>
             <div>
-                {experiences.map((experience) => (
+                {experiences.map((experience, index) => (
                     <ExperienceContainer
-                        key={experience.id}
+                        key={index}
                         experience={experience}
                     />
                 ))}
